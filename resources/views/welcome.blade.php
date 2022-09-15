@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="icon" href="{{ asset('images/Basile_and_Code_Logo.png') }}" />
         <title>Basile's Lair</title>
 
         <!-- Fonts -->
