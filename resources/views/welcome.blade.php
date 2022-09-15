@@ -33,7 +33,7 @@
                 <div class="container mx-auto px-6 md:px-12 relative z-10 flex items-center py-22 xl:py-22">
                         <div class="w-full font-mono flex flex-col items-center relative z-10">
                     <p class="font-extrabold text-8xl my-22 text-white animate-bounce">
-                                        404
+                                        4<span class="text-red-600">0</span>4
                                     </p>
                                 <h1 class="font-extrabold text-5xl text-center text-white leading-tight">
                           You are all alone here
