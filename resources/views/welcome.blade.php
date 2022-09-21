@@ -23,7 +23,7 @@
         <div class="space-y-4 flex items-center content-center">
             <a href="/" class="flex flex-row items-center gap-6">
                 <img src="{{ asset('images/Basile_and_Code_Logo.png') }}" class="w-40 hidden dark:block" alt="test" />
-                <h1 class="text-gray-200 text-3xl">Basile's Lair</h1>
+                <h1 class="text-gray-200 text-3xl"><span class="text-red-300">Basile</span>'s Lair</h1>
             </a>
         </div>
         <div class="relative overflow-hidden w-full m-auto rounded-lg">
