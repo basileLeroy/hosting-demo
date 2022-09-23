@@ -24,6 +24,15 @@
                 background-color: #2d3748;
             }
         </style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-58DHDH2XEQ"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-58DHDH2XEQ');
+        </script>
     </head>
     <body class="antialiased">
     <div class="m-auto py-12 sm:p-20 xl:w-10/12 rounded-lg">
