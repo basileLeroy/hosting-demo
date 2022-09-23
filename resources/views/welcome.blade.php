@@ -4,7 +4,14 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="{{ asset('images/Basile_and_Code_Logo.png') }}" />
+        <meta property="og:description" content="This is Basile's Lair, it is nothing special and actually you can not really find something here...">
+        <meta name="keywords" content="laravel, php, htaccess, software, coding, development, engineering, inclusive, community">
+        <meta property="og:url" content="https://basiles-lair.com">
+        <meta property="og:title" content="The entrance to my lair">
+        <meta property="og:description" content="A demo website on how to host + use of meta tags + implement GA">
+        <meta property="og:image" content="{{ asset('images/Basile_and_Code_Logo.png') }}">
         <title>Basile's Lair</title>
+        <meta name="og:type" content="website">
 
         <!-- Fonts -->
         <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
