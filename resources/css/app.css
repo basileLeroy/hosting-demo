@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    width:100vw;
+    height:100vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    background-color: bisque;
+}
+body #App {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    width: 200px;
+}
+body #App #botActive {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(46,139,87, 0.2), 0 6px 20px 0 rgba(46,139,87, 0.19);
+    background-color: #0bda51;
+}
+body #App #botInactive {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(46,139,87, 0.2), 0 6px 20px 0 rgba(46,139,87, 0.19);
+    background-color: #ff2400;
+}
+#logo {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50% 50%;
+    position: relative;
+    background-image: url('./Tetris_HC.jpg');
+    background-color: coral;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#logo #wave {
+    position: absolute;
+    top: 85%;
+    left: -75%;
+    width:500px;
+    height: 500px;
+    background-color: cornflowerblue;
+    border-radius: 25% 25%;
+    animation:spin 9s linear infinite;
+}
+
+body #App #version {
+    margin-top: 20px;
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform:rotate(360deg);
+    }
+}
